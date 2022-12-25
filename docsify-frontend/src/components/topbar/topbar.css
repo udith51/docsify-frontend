@@ -1,0 +1,22 @@
+.topbar {
+    width: 100vw;
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.middle {
+    width: 75%;
+}
+
+.person {
+    cursor: pointer;
+}

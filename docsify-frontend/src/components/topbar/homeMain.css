@@ -1,0 +1,17 @@
+.homeMain {
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.space {
+    height: 300px;
+    /* background-color: aqua; */
+}

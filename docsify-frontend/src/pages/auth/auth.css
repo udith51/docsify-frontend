@@ -1,0 +1,133 @@
+.regScreen,
+.logScreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    /* margin-right: 50px; */
+    /* width: 600px; */
+}
+
+.leftDisplay,
+.rightDisplay {
+    flex: 1
+}
+
+.login,
+.register {
+    /* margin: 10px; */
+    max-width: 600px;
+    margin-left: 80px;
+    /* flex: 1; */
+    /* margin-right: 60px; */
+    /* background-color: antiquewhite; */
+}
+
+.authBox {
+    font-size: 18px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.name,
+.regPassword {
+    display: flex;
+    justify-content: space-between;
+}
+
+.authBoxLabel {
+    font-weight: 600;
+}
+
+.authBoxContainer {
+    margin-top: 5px;
+    width: 600px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.firstNameContainer,
+.lastNameContainer,
+.psdBox {
+    width: 290px;
+}
+
+.psdBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.psdBoxLog {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.psdBoxLog>input {
+    border: none;
+    outline: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.regPasswordContainer,
+.regRe-passwordContainer {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submit {
+    background: #fff;
+    border: 1px solid #22B130;
+    color: #22B130;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 35px 0 10px 0;
+    width: 600px;
+    height: 34px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.submit:hover {
+    background: #22B130;
+    color: #fff;
+}
+
+.forgotBtn,
+.registerBtn,
+.loginBtn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    /* cursor: pointer; */
+}
+
+.forgotBtn>span,
+.registerBtn>span,
+.loginBtn>span {
+    cursor: pointer;
+}
+
+.view {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
